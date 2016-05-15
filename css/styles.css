@@ -1,0 +1,411 @@
+/* *************************
+   Header & Navigation Bar
+**************************** */
+.navbar{
+	background: #e69900;
+}
+
+.navbar-toggle{
+	background-color: #CCCCCC;
+}
+
+.icon-bar{
+	border-width: thick;
+}
+
+.navbar-brand
+{
+	padding-left: 100px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: cursive;
+	text-transform: uppercase;
+}
+
+.navbar ul li a{
+	color:#666666;
+	font-weight: bold;
+	font-size:18px;
+	font-family:Arial;
+	padding-top: 20px;
+}
+
+
+
+.navbar ul li a:hover{
+	color:red;
+	font-weight: bold;
+	font-family:Arial;
+	font-size:18px;
+	padding-top: 20px;
+}
+
+.btn{
+	height: auto;
+	width:auto;
+}
+
+/* ***********
+	body
+************ */
+body{
+	background-color: #CCCCCC;
+}
+
+
+/* ******************
+   Carousel Section
+********************* */
+
+#myCarousel{
+	padding-top: 200px;
+	padding-left: 80px;
+}
+
+#myCarousel .item
+{
+	height: 375px;
+	width:720px;
+}
+
+
+#slide1
+{
+	background-image: url("../images/slide1-medium.jpg");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: 720px 375px;
+}
+
+#slide2
+{
+	background-image: url("../images/slide2-medium.jpg");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: 720px 375px;
+}
+
+#slide3
+{
+	background-image: url("../images/slide3-medium.jpg");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size: 720px 375px;
+}
+
+
+
+/* **********************
+		JQueries
+************************* */
+@media(max-width:480px) {
+
+		#features p{
+				width:580px;
+		}
+}
+
+@media(max-width:768px) {
+	#myCarousel {
+		padding-top: 100px;
+	}
+
+	#myCarousel .item{
+		width: 450px;
+		height: 310px;
+	}
+
+#slide1
+	{
+		background-image: url("../images/slide1-small.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 500px 320px;
+	}
+
+	#slide2
+	{
+		background-image: url("../images/slide2-small.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 500px 320px;
+	}
+
+	#slide3
+	{
+		background-image: url("../images/slide3-small.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 500px 320px;
+	}
+}
+
+@media(min-width:1200px) {
+	#myCarousel{
+		padding-top: 100px;
+		padding-left: 340px;
+	}
+
+	#slide1
+	{
+		background-image:url("../images/slide1.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 900px 450px;
+	}
+
+	#slide2
+	{
+		background-image: url("../images/slide2.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 900px 450px;
+	}
+
+	#slide3
+	{
+		background-image: url("../images/slide3.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+	background-size: 900px 450px;
+	}
+}
+
+
+/* **********************
+   Three-Column Section
+************************* */
+#images{
+	height:150px;
+	width:150px;
+}
+
+
+#features{
+	padding-top:20px;
+	text-align: center;
+	background-color: #CCCCCC;
+}
+
+.panel{
+	background-color:#CCCCCC;
+}
+
+
+#features img{
+	margin: 0 0 20px 0;
+}
+
+#features h4{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#features p{
+	width:300px;
+	font-family:arial;
+	color: blue;
+	text-align: center;
+
+}
+
+@media(max-width:768px) {
+		#features p{
+			padding-left: 100px;
+				width:500px;
+		}
+}
+
+
+@media(max-width:480px) {
+		#features img{
+			margin:0 0 10px -300px;
+		}
+
+		#features h4{
+			margin-left: -300px;
+		}
+
+		#features p{
+			margin-left: 0px;
+			width:400px;
+		}
+}
+
+
+/* ***************
+   Hero Section
+******************* */
+
+.well{
+	margin:20px 50px;
+}
+
+
+#hero{
+	background-image: url("../images/main.jpg");
+	background-repeat: no-repeat;
+	width:900px;
+	height:500px;
+}
+
+/* ********************
+   Text Within Banner
+************************ */
+
+#hero  p.lead{
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	height:100;
+	width:50;
+	padding-top: 320px;
+	padding-left: 140px;
+	color:white;
+}
+
+
+@media(min-width:1200px) {
+	.well
+	{
+		margin:20px 250px;
+	}
+	#hero{
+		background-image: url("../images/main.jpg");
+		background-repeat: no-repeat;
+		width:960px;
+		height:500px;
+	}
+	#hero  p.lead{
+		text-align: center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 20px;
+		height:100;
+		width:50;
+		padding-top: 320px;
+		padding-left: 140px;
+		color:white;
+	}
+}
+
+
+@media(max-width:768px){
+	.well
+	{
+		margin:20px 100px;
+	}
+	#hero{
+		background-image: url("../images/main-small.jpg");
+		background-repeat: no-repeat;
+		background-size: 530px 500px;
+		background-color: #CCCCCC;
+	}
+	#hero  p.lead{
+		text-align: center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 20px;
+		padding-top: 340px;
+		margin-left:-400px;
+		color:white;
+	}
+}
+
+
+@media(max-width:480px) {
+	.well
+	{
+		margin:100px 100px;
+	}
+	#hero{
+		background-image: url("../images/main-small.jpg");
+		background-repeat: no-repeat;
+		background-size: 300px 500px;
+		background-color: #CCCCCC;
+	}
+	#hero  p.lead{
+		text-align: center;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+		padding-top: 320px;
+		margin-left:-650px;
+		color:white;
+	}
+}
+
+
+
+/* **************
+	Hero Text
+************** */
+#features_next
+{
+	width:1366px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial;
+	color:blue;
+	padding-left: 20px;
+}
+
+#features_next h5
+{
+	font-size: 22px;
+	text-align: center;
+	color: blue;
+}
+
+
+@media(max-width:768px) {
+		#features_next h5
+		{
+			margin-left: -300px;
+		}
+
+		#features_next p{
+			padding-left: 100px;
+				width:600px;
+		}
+}
+
+
+@media(max-width:480px) {
+		#features_next h5
+		{
+			margin-left: -400px;
+		}
+
+		#features_next p{
+			padding-left: 100px;
+				width:350px;
+		}
+}
+
+
+
+/* ***************
+   Footer
+******************* */
+footer{
+	background:#333;
+	color:#eee;
+
+	font-size:11px;
+	padding: 20px;
+}
+
+ul.unstyled
+{
+	list-style:none;
+	margin-left:-30px;
+}
+
+
+img.social{
+	width:50px;
+	height:50px;
+}
